@@ -31,3 +31,6 @@ Playable Game - a simple demo that shows each of the below listed features. It i
 * A fully fleshed out story.
 * More ailments, stats, items, weapons, and armor.
 * A better integrated UI complete with improved visuals.
+
+## This is the back end of this project
+# For the front end, follow [this link.](https://github.com/STP-8-2/Front-End.git)
