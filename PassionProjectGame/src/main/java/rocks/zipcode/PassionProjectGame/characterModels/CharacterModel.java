@@ -42,6 +42,7 @@ public abstract class CharacterModel {
     public void setStats(Stats stats) {
         this.stats = stats;
     }
+
     public ArrayList<Item> getInventory() {
         return inventory;
     }

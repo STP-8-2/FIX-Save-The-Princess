@@ -114,6 +114,8 @@ public class Hero extends CharacterModel {
         this.ailment = ailment;
     }
 
+
+
 //    public void changeStat(String statName, int changeOfDebuff){
 //        Map<String, Integer> map = heroStats.getCharacterStats();
 //        int value = map.get(statName);
