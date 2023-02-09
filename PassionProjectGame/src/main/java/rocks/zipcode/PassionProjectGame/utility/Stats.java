@@ -1,15 +1,27 @@
 package rocks.zipcode.PassionProjectGame.utility;
 
+import jakarta.persistence.OneToOne;
+
 public class Stats {
+    @OneToOne
     private Integer attack;
+    @OneToOne
     private Integer health;
+    @OneToOne
     private Integer speed;
+    @OneToOne
     private Integer defense;
+    @OneToOne
     private Integer stamina;
+    @OneToOne
     private Integer attackCap;
+    @OneToOne
     private Integer healthCap;
+    @OneToOne
     private Integer speedCap;
+    @OneToOne
     private Integer defenseCap;
+    @OneToOne
     private Integer staminaCap;
 
     public Stats(){}

@@ -1,5 +1,6 @@
 package rocks.zipcode.PassionProjectGame.controllers.characters;
 
+import dto.CharCreationDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -24,8 +25,8 @@ public class HeroController {
     public ResponseEntity<Hero> show(@PathVariable Long id){
         return new ResponseEntity<>(service.show(id), HttpStatus.OK);
     }
-    @PostMapping(value = "/")
-    public ResponseEntity<Hero> create (@RequestBody Hero hero){
+    @PostMapping(value = "/add")
+    public ResponseEntity<Hero> create (@RequestBody CharCreationDTO hero){
         return new ResponseEntity<>(service.create(hero), HttpStatus.CREATED);
     }
     @DeleteMapping (value="/delete")

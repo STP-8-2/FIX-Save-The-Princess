@@ -10,8 +10,8 @@ public class HeroConfig {
     private HeroService service;
     @PostConstruct
     public void setup(){
-        service.create(new Hero("Link"));
-        service.create(new Hero("Gon"));
-        service.create(new Hero("Sailor Moon"));
+//        service.create(new Hero("Link"));
+//        service.create(new Hero("Gon"));
+//        service.create(new Hero("Sailor Moon"));
     }
 }
